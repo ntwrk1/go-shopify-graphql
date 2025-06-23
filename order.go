@@ -54,6 +54,14 @@ const orderBaseQuery = `
 		country
 		zip
 	}
+	billingAddress{
+		address1
+		address2
+		city
+		province
+		country
+		zip
+	}
 	shippingLine{
 		originalPriceSet{
 			presentmentMoney{
