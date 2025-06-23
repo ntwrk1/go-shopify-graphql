@@ -51,16 +51,24 @@ const orderBaseQuery = `
 		address2
 		city
 		province
+		provinceCode
 		country
+		countryCode
 		zip
+		firstName
+		lastName
 	}
 	billingAddress{
 		address1
 		address2
 		city
 		province
+		provinceCode
 		country
+		countryCode
 		zip
+		firstName
+		lastName
 	}
 	shippingLine{
 		originalPriceSet{
